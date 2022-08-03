@@ -1,5 +1,7 @@
 import Item from './components/Item';
 import Card from './Card';
+import CardInfo from './CardInfo';
+
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         </Item>
       </ul>
       <Card/>
+      <CardInfo  empresa="Invest Test" descricao="Mamet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit ..."/>
+      <CardInfo empresa="Games Informatica" descricao="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."/>
     </>
   )
 }
